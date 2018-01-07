@@ -1,0 +1,39 @@
+body {
+font-family: Helvetica;
+}
+
+#full {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: white;
+    width: 1000px;
+}
+
+#header {
+	padding: 5px;
+	background-color: #800000;
+	color: white;
+	text-align: center;
+}
+
+#news {
+	padding: 20px;
+	background-color: white;
+	float: left;
+	width: 660px;
+}
+
+#links {
+	padding: 20px;
+	float: right;
+	width: 260px;
+}
+
+#end {
+	color: white;
+	clear: both;
+	padding-right: 20px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	background-color: #ff1a1a;
+}
