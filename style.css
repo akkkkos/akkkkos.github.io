@@ -1,33 +1,74 @@
-﻿#full {
-    margin: auto;
-    width: 900px;
-    border: 3px;
-    border-color: #1f1211;
+body, html {
+	font-family: "Trebuchet MS";
+	background-image: url('bg2.jpg');
+	background-size: cover;
+	height: 100%;
 }
 
-#header {
-    width: 900px;
-    height: 200px;
-    background-image: url(header.jpg);
+.full {
+	vertical-align: sub;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	background-image: url('bg1.png');
+	background-size: cover;
+}
+.minifull {
+	vertical-align: sub;
+	width: 90%;
+	text-align: center;
+	margin: auto;
+	padding-top: 75px;
+	padding-bottom: 1px;
 }
 
-#mainfull {
-    height: 600px;
-    background-color: #1e1212;
+.middlefull {
+	float: middle;
 }
 
-#main {
-    width: 660px;
-    color: #ffffff;
-    float: left;
-    padding: 20px;
 
+.bottom {
+	background-image: url('bg3.png');
+	background-size: cover;
+	text-align: center;
 }
 
-#bottom {
-    float: unset;
-    padding: 10px;
-    color: #ffffff;
-    height: 80px;
-    background-image: url(bottom.jpg);
+a:link {
+	color: #402fc7 ;
+	text-decoration: none;
+}
+
+table.redTable {
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+  padding: 2px 2px;
+}
+table.redTable tbody td {
+  font-size: 30px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F5C8BF;
+}
+table.redTable thead {
+  background: #A40808;
+}
+table.redTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #A40808;
+}
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+table.redTable tfoot td {
+  font-size: 13px;
 }
